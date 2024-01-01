@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tasca-3-victor-porlan"
+version = "0.1.0"
+description = "Tarea 3 de asignatura Programación de inteligencia artificial"
+authors = ["Víctor Porlan victorporlaninformatica@gmail.com"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^2.0.0"
+scikit-learn = "^1.3.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
